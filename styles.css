@@ -43,6 +43,10 @@ border-color: aqua;
     to{opacity: 1;}
 }
  */
+
+
+/*  
+2nd Item
 #myConteiner{
     width: 500px;
     height: 500px;
@@ -54,4 +58,18 @@ border-color: aqua;
     height: 50px;
     position: absolute;
     background-color: red;
+} */
+
+.menu-item{
+    border:2px solid red ;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+.menu-item .submenu{
+height: 40px;
+width: 120px;
+background-color: aquamarine;
+position: absolute;
+cursor: pointer;
 }
